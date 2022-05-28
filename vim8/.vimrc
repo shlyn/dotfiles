@@ -54,6 +54,11 @@ set nocompatible " 不兼容vi
 set number " 显示行号
 set background=dark " 色彩高亮模式
 
+set noundofile " 备份文件
+set nobackup
+set noswapfile
+" set undodir=~/.undodir
+
 set smarttab
 set autoindent
 set copyindent
