@@ -59,7 +59,7 @@ set nobackup
 set noswapfile
 " set undodir=~/.undodir
 
-set smarttab
+set smarttab " 智能缩进
 set autoindent
 set copyindent
 set expandtab " 将tab转成空格
