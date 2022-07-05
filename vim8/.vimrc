@@ -85,3 +85,17 @@ set cursorlineopt=screenline " 当前行高亮模式
 set statusline=%<%f%=\ [%1*%M%*%n%R%H]\ %-19(%3l,%02c%03V%)%O'%02b'
 hi User1 term=inverse,bold cterm=inverse,bold ctermfg=red
 
+" vim-plug configration
+call plug#begin()
+" Make sure you use single quotes
+
+" The default plugin directory will be as follows:
+" - vim (Linux/macOS): '~/.vim/plugged'
+" You can specify a custom plugin directory by passing it as the argument
+" - e.g. `call plug#begin('~/.vim/plugged')`
+" Avoid using standard Vim directory names like 'plugin'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
